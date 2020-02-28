@@ -22,5 +22,5 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     re_path(r'^api/puzzle_pieces/$', views.buttonClick),
     re_path(r'^api/puzzle_pieces/send/$', views.receivePic),
-    re_path(r'^api/puzzle_pieces/read_img/$', views.showImage),
+    # re_path(r'^api/puzzle_pieces/read_img/$', views.showImage),
 ]
